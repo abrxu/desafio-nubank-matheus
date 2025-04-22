@@ -21,7 +21,7 @@ public class Contact {
     @GeneratedValue(strategy = GenerationType.SEQUENCE)
     private Long id;
 
-    @Column(name = "txt_nickname", length = 35, nullable = false)
+    @Column(name = "txt_nickname", length = 35)
     private String nickname;
 
     @Column(name = "txt_name", length = 80, nullable = false)
